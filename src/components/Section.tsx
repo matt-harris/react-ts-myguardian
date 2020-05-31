@@ -32,7 +32,7 @@ const Section = (props: { title: string; id: string; numItems?: number }) => {
   const { title, id, numItems = 4 } = props;
 
   async function fetchData(id: string, numItems?: number): Promise<void> {
-    const url = `http://content.guardianapis.com/${id}?page-size=${numItems}&show-fields=trailText%2Cthumbnail&api-key=${key}`;
+    const url = `//content.guardianapis.com/${id}?page-size=${numItems}&show-fields=trailText%2Cthumbnail&api-key=${key}`;
 
     const res = await fetch(url);
     const {
