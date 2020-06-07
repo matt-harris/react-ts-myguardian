@@ -1,6 +1,6 @@
 # MyGuardian homepage
 
-This repository contains a personalised homepage app with content supplied by the Guardian open API. It's built with React.js, typescript and uses Cypress to run end-to-end tests. You will need an API key to successfully authenticate against the API. [You can register a developer key here](https://open-platform.theguardian.com/access/).
+This repository contains a personalised homepage app with content supplied by the Guardian open API. It's built with React.js, styled components, typescript and uses Cypress to run end-to-end tests. You will need an API key to successfully authenticate against the API. [You can register a developer key here](https://open-platform.theguardian.com/access/).
 
 ![MyGuardian App](screenshot.jpg)
 
